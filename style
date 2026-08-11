@@ -1,4 +1,4 @@
-
+          
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -36,21 +36,3 @@
 
             artigo-autor {
                 font-weight: bold;
-     <style>
-</head>
-<body>
-    <header>
-    </body>
-    </html>
-    <body>
-        <header>
-        <h1>Meu blog tech</h1>
-        <p>Vou compartilhar como se vestir com a moda coreana</p>
-    </header>
-    <main>
-<h2>Meu primeiro post</h2>
-<p>Por:Adrielly Santos</p>
-<p>Boas-vindas ao meu novo blog! Aqui vou compartilhar dicas de moda.</p>
-        </main>
-    </body>
-</html>
