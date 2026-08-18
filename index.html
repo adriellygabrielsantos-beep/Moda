@@ -1,56 +1,137 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>blog</title>
-        <link rel="stylesheet" href="style.css">
-<head class"tema-escuro>
-
-
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adrielly Santos | Paris Haute Couture Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,400&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
 <body>
-        <header">
-            <h1>meu blog</h1>
-            <p> vou compartilhar sobre desfiles de Paris. </p>
-        </header>
-        <main>
-          <article>
-            <img src="imagem-blog.png"
-            alt="logotipo conceitual de maquinin de roupa rosa desfile. "
-           <div>
-            <h2> meu primeiro post</h2>
-            <p> class="artigo-autor">Por: Adrielly santos</p>
-            <p>boas- vindas ao meu novo blog! aqui vou compartilhar dicas de moda. </p>
-        </main>
-    <button>❤️ <span>0</span></button>
-    <button> 👍 <span>0</span></button>
-    </div>
-</article>
 
+    <!-- Topo / Navegação -->
+    <nav class="barramenu">
+        <span class="brand">AS PARIS</span>
+        <ul>
+            <li><a href="#posts">Desfiles</a></li>
+            <li><a href="#tendencias">Tendências</a></li>
+            <li><a href="#streetstyle">Street Style</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+        </ul>
+    </nav>
 
-  <img src="imagem-bluetooth.jpg"
-            alt="ilustração de maniquin de roupa."
-           <div>
-            <h2> Novidades sobre a moda em Paris durante a fashiom week</h2>
-            <p> class="artigo-autor">Por: Adrielly santos</p>
-            <p>A experiência completa de moda com experiência: como é estar em Paris durante a Fashion Week não se limita à plateia do desfile. Fora das passarelas, o que acontece nas ruas, cafés e galerias é parte importante da experiência.
+    <!-- Cabeçalho Principal -->
+    <header class="cabecalho">
+        <div class="logo">
+            <span class="logo-icone">✨ 🗼</span>
+            <h1>Adrielly Santos</h1>
+            <span class="subtitulo-logo">PARIS FASHION WEEK & HAUTE COUTURE</span>
+        </div>
+        <p class="descricao-blog">Crônicas visuais, bastidores e cobertura dos desfiles mais icônicos das passarelas parisienses.</p>
+    </header>
 
-Fotos de street style nos arredores das salas de desfile, encontros com influenciadores, shows off‑calendar, exposições, tudo isso compõe a vivência parisiense. Os bastidores também revelam o nível de profissionalismo, a logística, o ritmo intenso da moda em sua forma mais pura.</p>
-           </main>
+    <!-- Conteúdo Principal -->
+    <main class="conteudo-principal">
 
+        <!-- Destaque Principal -->
+        <section class="banner-destaque">
+            <img src="https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=1200&q=80" alt="Modelo em desfile de moda de Paris">
+            <div class="texto-destaque">
+                <span class="categoria-destaque">Especial Paris</span>
+                <h2>O Brilho da Alta-Costura nas Passarelas Parisienses</h2>
+                <p>Confira a análise completa das coleções que estão definindo o conceito de sofisticação e arte nesta temporada.</p>
+            </div>
+        </section>
 
-           <p class="artigo-fonte">fonte: <a href="https://www.f1-fansite.com/pt/not%C3%ADcias-f1/"target="blank">F1
+        <!-- Container de Posts -->
+        <div id="posts" class="grid-posts">
 
+            <!-- Post 1 (Original) -->
+            <article class="card-post">
+                <div class="imagem-container">
+                    <img src="imagem-blog.png" alt="Logotipo conceitual de máquina de roupa rosa desfile" onerror="this.src='https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=800&q=80'">
+                </div>
+                <div class="conteudo-post">
+                    <span class="categoria">Boas-vindas</span>
+                    <h2>Meu Primeiro Post</h2>
+                    <p class="artigo-autor">Por <strong>Adrielly Santos</strong></p>
+                    <p class="texto-post">Boas-vindas ao meu novo blog! Aqui vou compartilhar dicas exclusivas, tendências de moda, bastidores e tudo o que rola no universo dos desfiles.</p>
+                    
+                    <div class="rodape-post">
+                        <div class="botoes-interacao">
+                            <button class="btn-curtir">❤️ <span>0</span></button>
+                            <button class="btn-like">👍 <span>0</span></button>
+                        </div>
+                    </div>
+                </div>
+            </article>
 
-    <button>❤️ <span>0</span></button>
-    <button> 👍 <span>0</span></button>
-    </div>
-</article>
-</main>
+            <!-- Post 2 (Original) -->
+            <article class="card-post">
+                <div class="imagem-container">
+                    <img src="imagem-bluetooth.jpg" alt="Ilustração de manequim de roupa" onerror="this.src='https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=800&q=80'">
+                </div>
+                <div class="conteudo-post">
+                    <span class="categoria">Desfiles & Tendências</span>
+                    <h2>Novidades sobre a moda em Paris durante a Fashion Week</h2>
+                    <p class="artigo-autor">Por <strong>Adrielly Santos</strong></p>
+                    
+                    <p class="texto-post">A experiência completa de estar em Paris durante a Fashion Week não se limita à plateia do desfile. Fora das passarelas, o que acontece nas ruas, cafés e galerias é parte fundamental dessa vivência.</p>
+                    
+                    <p class="texto-post">Fotos de <em>street style</em> nos arredores das salas de desfile, encontros com influenciadores, shows <em>off-calendar</em> e exposições compõem esse universo. Os bastidores também revelam o nível de profissionalismo, a logística e o ritmo intenso da moda em sua forma mais pura.</p>
+                    
+                    <p class="artigo-fonte">Fonte: <a href="https://blog.passaportefashionista.com/moda-com-experiencia-como-e-estar-em-paris-durante-a-fashion-week/" target="_blank" rel="noopener noreferrer">F1 Fan Site</a></p>
 
+                    <div class="rodape-post">
+                        <div class="botoes-interacao">
+                            <button class="btn-curtir">❤️ <span>0</span></button>
+                            <button class="btn-like">👍 <span>0</span></button>
+                        </div>
+                    </div>
+                </div>
+            </article>
 
-<script src"script.js"></script>
+            <!-- Post 3 (Novo Post Expandido) -->
+            <article class="card-post">
+                <div class="imagem-container">
+                    <img src="https://images.unsplash.com/photo-1469334031218-e382a71b716b?auto=format&fit=crop&w=800&q=80" alt="Street style nas ruas de Paris">
+                </div>
+                <div class="conteudo-post">
+                    <span class="categoria">Street Style</span>
+                    <h2>A Elegância do Rosa: Paleta de Cores em Alta</h2>
+                    <p class="artigo-autor">Por <strong>Adrielly Santos</strong></p>
+                    <p class="texto-post">O rosa choque e os tons pastel dominaram os looks urbanos perto dos desfiles na Place Vendôme. A aposta da temporada combina alfaiataria estruturada com tons vibrantes de rosa e acessórios metálicos.</p>
+                    
+                    <div class="rodape-post">
+                        <div class="botoes-interacao">
+                            <button class="btn-curtir">❤️ <span>0</span></button>
+                            <button class="btn-like">👍 <span>0</span></button>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+
+        <!-- Seção de Newsletter / Inscrição -->
+        <section class="caixa-newsletter">
+            <h3>Receba os Highlights de Paris</h3>
+            <p>Assine para receber resumos exclusivos dos desfiles e guia de tendências diretamente no seu e-mail.</p>
+            <form class="form-newsletter" onsubmit="return false;">
+                <input type="email" placeholder="Digite seu e-mail de moda..." required>
+                <button type="submit">Inscrever-se</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="rodape-pagina">
+        <p>&copy; 2026 Adrielly Santos. Criado com paixão pela moda de Paris.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
-
-
 </html>
